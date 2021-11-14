@@ -1,0 +1,889 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1964369083198797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5792659991485143311}
+  - component: {fileID: 9111715440885385580}
+  - component: {fileID: 2992715941095750101}
+  m_Layer: 0
+  m_Name: 
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5792659991485143311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964369083198797}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8022960584677897098}
+  m_Father: {fileID: 3370959912606370061}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9111715440885385580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964369083198797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  values:
+  - IfcBuilding
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - 
+  - ELEMENT
+--- !u!114 &2992715941095750101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964369083198797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Projektname
+  - Projektstatus
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname_2
+  - Projektnummer
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - NumberOfStoreys
+  - IsLandmarked
+  nominalValues:
+  - Sonstige
+  - Projektinformationen
+  - 
+  - 
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - xxxx
+  - 000
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Pset_BuildingCommon
+  - 1
+  - false
+--- !u!1 &551826869919291500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5307893328860386092}
+  - component: {fileID: 8129967847458855328}
+  - component: {fileID: 5615006961192833910}
+  - component: {fileID: 1014378080149368774}
+  - component: {fileID: 7377794589280152463}
+  - component: {fileID: 7462427385442819523}
+  - component: {fileID: 2333775805406146794}
+  - component: {fileID: 8306208999112001533}
+  - component: {fileID: 3388465506336522054}
+  m_Layer: 0
+  m_Name: Baustellenfahrzeug - Planierraupe:Typ1:551693
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5307893328860386092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8022960584677897098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8129967847458855328
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Mesh: {fileID: 7357518329907081805, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+--- !u!23 &5615006961192833910
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2302940675832668855, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  - {fileID: -8900963475910997001, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  - {fileID: -6711382031126038948, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  - {fileID: -6825940264845084079, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  - {fileID: 1607012058966078448, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  - {fileID: -903151153163389134, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  - {fileID: 7959812011211188426, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  - {fileID: -5141500280951586249, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1014378080149368774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - Tag
+  values:
+  - IfcBuildingElementProxy
+  - 32yOTpy9fFWvl4XC9R2AF_
+  - Baustellenfahrzeug - Planierraupe:Typ1:551693
+  - Baustellenfahrzeug - Planierraupe:Typ1
+  - 1 0 0 0 0 1 0 0 0 0 1 0 8.5 -7.4 14.96 1
+  - 551693
+--- !u!114 &7377794589280152463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Reference
+  - PsetName
+  - Reference
+  - PsetName
+  - Arbeitsebene
+  - Bauteillistenebene
+  - Ebene
+  - Versatz von Host
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Pset_BuildingElementProxyCommon
+  - Typ1
+  - Pset_QuantityTakeOff
+  - Typ1
+  - "Abh\xE4ngigkeiten"
+  - 'Ebene : GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 0
+  - Abmessungen
+  - 84.0179
+  - 19.2172
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Baustellenfahrzeug - Planierraupe: Typ1'
+  - 'Baustellenfahrzeug - Planierraupe: Typ1'
+  - Umgebung
+  - 'Baustellenfahrzeug - Planierraupe: Typ1'
+  - 'Baustellenfahrzeug - Planierraupe: Typ1'
+--- !u!114 &7462427385442819523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Autodesk Light Teal 50-188-173
+  - Autodesk Light Green 135-188-64
+  - Autodesk Sky Blue 6-150-215
+  - "Lack - wei\xDF 241-240-234"
+  - Lack - grau
+  - Glas - Sicherheitsverglasung
+  - Metall - Edelstahl satiniert
+  - Kunststoff - grau 50-50-50
+  thicknesses:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &2333775805406146794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41697d3e0127849489c6cc709fa5d699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  types:
+  - type
+  - id
+  - Name
+  - Tag
+  - PredefinedType
+  values:
+  - IfcBuildingElementProxyType
+  - 32yOTpy9fFWvl4XC9R2A82
+  - Typ1
+  - 551665
+  - NOTDEFINED
+--- !u!114 &8306208999112001533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials: []
+  thicknesses: []
+--- !u!64 &3388465506336522054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551826869919291500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7357518329907081805, guid: 9de75a5f6b2ce3640941fef7b9b0f379, type: 3}
+--- !u!1 &2405366273781040433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3370959912606370061}
+  - component: {fileID: 265547074793189857}
+  - component: {fileID: 3920099490108554775}
+  m_Layer: 0
+  m_Name: Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3370959912606370061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2405366273781040433}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5792659991485143311}
+  m_Father: {fileID: 3039261681945388140}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &265547074793189857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2405366273781040433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - CompositionType
+  - RefLatitude
+  - RefLongitude
+  - RefElevation
+  values:
+  - IfcSite
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - Default
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - ELEMENT
+  - 52.516599999722
+  - 13.399999999722
+  - 14.96
+--- !u!114 &3920099490108554775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2405366273781040433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Kategorie
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname
+  - Projektname_2
+  - Projektnummer
+  - Projektstatus
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  nominalValues:
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Sonstige
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - Projektinformationen
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - 
+  - xxxx
+  - 000
+  - 
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521
+--- !u!1 &3546951083686755817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3039261681945388140}
+  - component: {fileID: 6405268585968796055}
+  - component: {fileID: 7082530327011792687}
+  - component: {fileID: 4957029267622623725}
+  - component: {fileID: 5637365284479583836}
+  m_Layer: 0
+  m_Name: E-Raupe-Schild
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3039261681945388140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546951083686755817}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3370959912606370061}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6405268585968796055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546951083686755817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6254c7c63cc62474a86e431a3be71d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headers:
+  - description
+  - implementation_level
+  - name
+  - time_stamp
+  - preprocessor_version
+  - originating_system
+  - schema_identifiers
+  values:
+  - ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]
+  - 2;1
+  - 000
+  - 2021-04-22T14:11:55
+  - 'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013'
+  - 21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383
+  - IFC2X3
+--- !u!114 &7082530327011792687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546951083686755817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72179e3e2e45e94fb15765524953a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType:
+  - LENGTHUNIT
+  - AREAUNIT
+  - VOLUMEUNIT
+  - PLANEANGLEUNIT
+  - MASSUNIT
+  - TIMEUNIT
+  - FREQUENCYUNIT
+  - THERMODYNAMICTEMPERATUREUNIT
+  - ELECTRICCURRENTUNIT
+  - ELECTRICVOLTAGEUNIT
+  - POWERUNIT
+  - FORCEUNIT
+  - ILLUMINANCEUNIT
+  - LUMINOUSFLUXUNIT
+  - LUMINOUSINTENSITYUNIT
+  - PRESSUREUNIT
+  unitName:
+  - METRE
+  - SQUARE_METRE
+  - CUBIC_METRE
+  - DEGREE
+  - GRAM
+  - SECOND
+  - HERTZ
+  - DEGREE_CELSIUS
+  - AMPERE
+  - VOLT
+  - WATT
+  - NEWTON
+  - LUX
+  - LUMEN
+  - CANDELA
+  - PASCAL
+  si_equivalent:
+  - 1
+  - 1
+  - 1
+  - 0.017453292519943299
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &4957029267622623725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546951083686755817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e980c28fadf5474c9cf579f9dbf3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifcGameObject:
+  - {fileID: 3546951083686755817}
+  - {fileID: 2405366273781040433}
+  - {fileID: 1964369083198797}
+  - {fileID: 3619161175669787112}
+  - {fileID: 551826869919291500}
+  ifcId:
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - 32yOTpy9fFWvl4XC9R2AF_
+  ifcElementType:
+  - IfcProject
+  - IfcSite
+  - IfcBuilding
+  - IfcBuildingStorey
+  - IfcBuildingElementProxy
+  ifcPresentationLayer:
+  - No layer
+  - No layer
+  - No layer
+  - No layer
+  - A-DETL-GENF-OTLN
+--- !u!114 &5637365284479583836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3546951083686755817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - LongName
+  - Phase
+  values:
+  - IfcProject
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 000
+  - 
+  - 
+--- !u!1 &3619161175669787112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8022960584677897098}
+  - component: {fileID: 888806661132047641}
+  - component: {fileID: 3100082438995140996}
+  m_Layer: 0
+  m_Name: GM-EG-OKFFB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8022960584677897098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3619161175669787112}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5307893328860386092}
+  m_Father: {fileID: 5792659991485143311}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &888806661132047641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3619161175669787112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  - Elevation
+  values:
+  - IfcBuildingStorey
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - GM-EG-OKFFB
+  - Ebene:Ebene
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - GM-EG-OKFFB
+  - ELEMENT
+  - 0
+--- !u!114 &3100082438995140996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3619161175669787112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Typname
+  - PsetName
+  - Farbe
+  - Linienmuster
+  - "Linienst\xE4rke"
+  - Symbol
+  - Symbol bei Ende 1 Standard
+  - Symbol bei Ende 2 Standard
+  - PsetName
+  - "Basish\xF6he"
+  - PsetName
+  - Name
+  - PsetName
+  - AboveGround
+  - PsetName
+  - Name
+  - PsetName
+  - Ansicht
+  - PsetName
+  - "H\xF6he f\xFCr Berechnung"
+  - PsetName
+  - "Geb\xE4udegeschoss"
+  - Name
+  - Tragwerk
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - Ebenen
+  - Ebene
+  - ID-Daten(Type)
+  - Ebene
+  - Grafiken(Type)
+  - 16711680
+  - Verdeckt
+  - 1
+  - '_Beschriftung_Ebene: Beschriftung Ebene'
+  - false
+  - true
+  - "Abh\xE4ngigkeiten(Type)"
+  - Projekt-Basispunkt
+  - Pset_AirSideSystemInformation
+  - GM-EG-OKFFB
+  - Pset_BuildingStoreyCommon
+  - false
+  - Pset_ProductRequirements
+  - GM-EG-OKFFB
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - Abmessungen
+  - 0
+  - ID-Daten
+  - true
+  - GM-EG-OKFFB
+  - false
+  - Sonstige
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'
+  - Ebenen
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'

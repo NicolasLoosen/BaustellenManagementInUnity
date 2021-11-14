@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &735029750312875175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3454620408043679117}
+  - component: {fileID: 4552233077783971731}
+  - component: {fileID: 3853952679779471596}
+  - component: {fileID: 5953948319533420011}
+  - component: {fileID: 7975856657355046550}
+  - component: {fileID: 7926351785251257165}
+  - component: {fileID: 7884649080722642405}
+  - component: {fileID: 2129282204075593549}
+  m_Layer: 0
+  m_Name: H-Mauerwerk-5m
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3454620408043679117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4552233077783971731
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_Mesh: {fileID: 1838432325253918265, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+--- !u!23 &3853952679779471596
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -9082671474825687821, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  - {fileID: 2555600617135374468, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  - {fileID: 2642300860808051420, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  - {fileID: 1555476217411564961, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  - {fileID: -6277199301008485005, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  - {fileID: 8783668010314090062, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  - {fileID: 1072364254395420848, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  - {fileID: 4689812545598214104, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5953948319533420011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6254c7c63cc62474a86e431a3be71d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headers:
+  - description
+  - implementation_level
+  - name
+  - time_stamp
+  - preprocessor_version
+  - originating_system
+  - schema_identifiers
+  values:
+  - ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]
+  - 2;1
+  - 000
+  - 2021-04-22T14:33:30
+  - 'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013'
+  - 21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383
+  - IFC2X3
+--- !u!114 &7975856657355046550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72179e3e2e45e94fb15765524953a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType:
+  - LENGTHUNIT
+  - AREAUNIT
+  - VOLUMEUNIT
+  - PLANEANGLEUNIT
+  - MASSUNIT
+  - TIMEUNIT
+  - FREQUENCYUNIT
+  - THERMODYNAMICTEMPERATUREUNIT
+  - ELECTRICCURRENTUNIT
+  - ELECTRICVOLTAGEUNIT
+  - POWERUNIT
+  - FORCEUNIT
+  - ILLUMINANCEUNIT
+  - LUMINOUSFLUXUNIT
+  - LUMINOUSINTENSITYUNIT
+  - PRESSUREUNIT
+  unitName:
+  - METRE
+  - SQUARE_METRE
+  - CUBIC_METRE
+  - DEGREE
+  - GRAM
+  - SECOND
+  - HERTZ
+  - DEGREE_CELSIUS
+  - AMPERE
+  - VOLT
+  - WATT
+  - NEWTON
+  - LUX
+  - LUMEN
+  - CANDELA
+  - PASCAL
+  si_equivalent:
+  - 1
+  - 1
+  - 1
+  - 0.017453292519943299
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &7926351785251257165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e980c28fadf5474c9cf579f9dbf3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifcGameObject:
+  - {fileID: 735029750312875175}
+  ifcId:
+  - 08S2TIJxXAnQo6ShtLJgeI
+  ifcElementType:
+  - IfcProject
+  ifcPresentationLayer:
+  - No layer
+--- !u!114 &7884649080722642405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - LongName
+  - Phase
+  values:
+  - IfcProject
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 000
+  - 
+  - 
+--- !u!64 &2129282204075593549
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735029750312875175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1838432325253918265, guid: 37aac0212bcac3e4cab433d492d45942, type: 3}

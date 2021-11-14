@@ -1,0 +1,1079 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3733961199121230679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8072970414203747890}
+  - component: {fileID: 196661524951695694}
+  - component: {fileID: 6384522159034531740}
+  - component: {fileID: 7081173725433249035}
+  - component: {fileID: 6547772926746978321}
+  - component: {fileID: 4697151579796041778}
+  - component: {fileID: 105915759330280716}
+  m_Layer: 0
+  m_Name: Spundbohle:Spundbohle 750 x 200:595069
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8072970414203747890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733961199121230679}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6498486504956249243}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &196661524951695694
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733961199121230679}
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+--- !u!23 &6384522159034531740
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733961199121230679}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6110143329651774602, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7081173725433249035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733961199121230679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R2ToE
+  - Spundbohle:Spundbohle 750 x 200:595069
+  - Spundbohle:Spundbohle 750 x 200
+  - 1 0 0 0 0 1 0 0 0 0 1 0 9.74309 -5.96329 14.96 1
+--- !u!114 &6547772926746978321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733961199121230679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Breite
+  - Tiefe
+  - Verbundbreite
+  - Winkel Flansche
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Typname
+  - PsetName
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - Basisbauteil
+  - PsetName
+  - Einbautiefe
+  - "Fl\xE4che"
+  - "Gesamtl\xE4nge Spundbohle"
+  - Volumen
+  - PsetName
+  - Material
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Spundbohle
+  - Konstruktion(Type)
+  - 0.75
+  - 0.2
+  - 0.03
+  - 30
+  - ID-Daten(Type)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Spundbohle 750 x 200
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - false
+  - Keine
+  - Abmessungen
+  - 4.9
+  - 6.1174
+  - 6
+  - 0.0619292
+  - "Materialien und Oberfl\xE4chen"
+  - Metall - Baustahl S275 - gerostet
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - "Grundst\xFCck"
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+--- !u!114 &4697151579796041778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733961199121230679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Metall - Baustahl S275 - gerostet
+  thicknesses:
+  - 
+--- !u!64 &105915759330280716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733961199121230679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+--- !u!1 &5170714589337710448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6498486504956249243}
+  - component: {fileID: 7930597144284944971}
+  - component: {fileID: 667627175582288974}
+  - component: {fileID: 1567938250634160633}
+  - component: {fileID: 902225340918234184}
+  m_Layer: 0
+  m_Name: E-Spundbohle-3m
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6498486504956249243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170714589337710448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4456908544752623226}
+  - {fileID: 7402691963273356912}
+  - {fileID: 8072970414203747890}
+  - {fileID: 9153959633437493249}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7930597144284944971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170714589337710448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6254c7c63cc62474a86e431a3be71d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headers:
+  - description
+  - implementation_level
+  - name
+  - time_stamp
+  - preprocessor_version
+  - originating_system
+  - schema_identifiers
+  values:
+  - ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]
+  - 2;1
+  - 000
+  - 2021-04-22T14:25:43
+  - 'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013'
+  - 21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383
+  - IFC2X3
+--- !u!114 &667627175582288974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170714589337710448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72179e3e2e45e94fb15765524953a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType:
+  - LENGTHUNIT
+  - AREAUNIT
+  - VOLUMEUNIT
+  - PLANEANGLEUNIT
+  - MASSUNIT
+  - TIMEUNIT
+  - FREQUENCYUNIT
+  - THERMODYNAMICTEMPERATUREUNIT
+  - ELECTRICCURRENTUNIT
+  - ELECTRICVOLTAGEUNIT
+  - POWERUNIT
+  - FORCEUNIT
+  - ILLUMINANCEUNIT
+  - LUMINOUSFLUXUNIT
+  - LUMINOUSINTENSITYUNIT
+  - PRESSUREUNIT
+  unitName:
+  - METRE
+  - SQUARE_METRE
+  - CUBIC_METRE
+  - DEGREE
+  - GRAM
+  - SECOND
+  - HERTZ
+  - DEGREE_CELSIUS
+  - AMPERE
+  - VOLT
+  - WATT
+  - NEWTON
+  - LUX
+  - LUMEN
+  - CANDELA
+  - PASCAL
+  si_equivalent:
+  - 1
+  - 1
+  - 1
+  - 0.017453292519943299
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &1567938250634160633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170714589337710448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e980c28fadf5474c9cf579f9dbf3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifcGameObject:
+  - {fileID: 5170714589337710448}
+  - {fileID: 6232733670553980253}
+  - {fileID: 3733961199121230679}
+  - {fileID: 8884546167744396140}
+  - {fileID: 6805492050967939296}
+  ifcId:
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 32yOTpy9fFWvl4XC9R2ToF
+  - 32yOTpy9fFWvl4XC9R2ToE
+  - 32yOTpy9fFWvl4XC9R2ToD
+  - 32yOTpy9fFWvl4XC9R2ToC
+  ifcElementType:
+  - IfcProject
+  - IfcSite
+  - IfcSite
+  - IfcSite
+  - IfcSite
+  ifcPresentationLayer:
+  - No layer
+  - L-SITE-____-OTLN
+  - L-SITE-____-OTLN
+  - L-SITE-____-OTLN
+  - L-SITE-____-OTLN
+--- !u!114 &902225340918234184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170714589337710448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - LongName
+  - Phase
+  values:
+  - IfcProject
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 000
+  - 
+  - 
+--- !u!1 &6232733670553980253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9153959633437493249}
+  - component: {fileID: 4750478155463257523}
+  - component: {fileID: 3256371237536235332}
+  - component: {fileID: 2257578368333266876}
+  - component: {fileID: 3685443199044146543}
+  - component: {fileID: 1528056338912744417}
+  - component: {fileID: 8361461126165503956}
+  m_Layer: 0
+  m_Name: Spundbohle:Spundbohle 750 x 200:595068
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &9153959633437493249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232733670553980253}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: -8.659561e-17}
+  m_LocalPosition: {x: 0.7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6498486504956249243}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4750478155463257523
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232733670553980253}
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+--- !u!23 &3256371237536235332
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232733670553980253}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6110143329651774602, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2257578368333266876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232733670553980253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R2ToF
+  - Spundbohle:Spundbohle 750 x 200:595068
+  - Spundbohle:Spundbohle 750 x 200
+  - -1 0 0 0 0 -1 0 0 0 0 1 0 10.4931 -5.96329 14.96 1
+--- !u!114 &3685443199044146543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232733670553980253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Breite
+  - Tiefe
+  - Verbundbreite
+  - Winkel Flansche
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Typname
+  - PsetName
+  - Width
+  - PsetName
+  - Basisbauteil
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - PsetName
+  - Einbautiefe
+  - "Fl\xE4che"
+  - "Gesamtl\xE4nge Spundbohle"
+  - Volumen
+  - PsetName
+  - Material
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Spundbohle
+  - Konstruktion(Type)
+  - 0.75
+  - 0.2
+  - 0.03
+  - 30
+  - ID-Daten(Type)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Spundbohle 750 x 200
+  - Pset_DrainageReserve
+  - 6
+  - "Abh\xE4ngigkeiten"
+  - Keine
+  - 0
+  - false
+  - Abmessungen
+  - 4.9
+  - 6.1174
+  - 6
+  - 0.0619292
+  - "Materialien und Oberfl\xE4chen"
+  - Metall - Baustahl S275 - gerostet
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - "Grundst\xFCck"
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+--- !u!114 &1528056338912744417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232733670553980253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Metall - Baustahl S275 - gerostet
+  thicknesses:
+  - 
+--- !u!64 &8361461126165503956
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232733670553980253}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+--- !u!1 &6805492050967939296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4456908544752623226}
+  - component: {fileID: 9220446263896124240}
+  - component: {fileID: 817894333934395471}
+  - component: {fileID: 7352232341444925030}
+  - component: {fileID: 2277993436746052050}
+  - component: {fileID: 4054639013664656507}
+  - component: {fileID: 2481855641179837171}
+  m_Layer: 0
+  m_Name: Spundbohle:Spundbohle 750 x 200:595071
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4456908544752623226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805492050967939296}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6498486504956249243}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9220446263896124240
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805492050967939296}
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+--- !u!23 &817894333934395471
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805492050967939296}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6110143329651774602, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7352232341444925030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805492050967939296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R2ToC
+  - Spundbohle:Spundbohle 750 x 200:595071
+  - Spundbohle:Spundbohle 750 x 200
+  - 1 0 0 0 0 1 0 0 0 0 1 0 8.24309 -5.96329 14.96 1
+--- !u!114 &2277993436746052050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805492050967939296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Breite
+  - Tiefe
+  - Verbundbreite
+  - Winkel Flansche
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Typname
+  - PsetName
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - Basisbauteil
+  - PsetName
+  - Einbautiefe
+  - "Fl\xE4che"
+  - "Gesamtl\xE4nge Spundbohle"
+  - Volumen
+  - PsetName
+  - Material
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Spundbohle
+  - Konstruktion(Type)
+  - 0.75
+  - 0.2
+  - 0.03
+  - 30
+  - ID-Daten(Type)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Spundbohle 750 x 200
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - false
+  - Keine
+  - Abmessungen
+  - 4.9
+  - 6.1174
+  - 6
+  - 0.0619292
+  - "Materialien und Oberfl\xE4chen"
+  - Metall - Baustahl S275 - gerostet
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - "Grundst\xFCck"
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+--- !u!114 &4054639013664656507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805492050967939296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Metall - Baustahl S275 - gerostet
+  thicknesses:
+  - 
+--- !u!64 &2481855641179837171
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805492050967939296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+--- !u!1 &8884546167744396140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7402691963273356912}
+  - component: {fileID: 1056070079927016839}
+  - component: {fileID: 5250939545818830207}
+  - component: {fileID: 887822807650849227}
+  - component: {fileID: 8198309219253744486}
+  - component: {fileID: 8778618475825231494}
+  - component: {fileID: 6831428281396573615}
+  m_Layer: 0
+  m_Name: Spundbohle:Spundbohle 750 x 200:595070
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7402691963273356912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884546167744396140}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: -8.659561e-17}
+  m_LocalPosition: {x: -0.7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6498486504956249243}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1056070079927016839
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884546167744396140}
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+--- !u!23 &5250939545818830207
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884546167744396140}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6110143329651774602, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &887822807650849227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884546167744396140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R2ToD
+  - Spundbohle:Spundbohle 750 x 200:595070
+  - Spundbohle:Spundbohle 750 x 200
+  - -1 0 0 0 0 -1 0 0 0 0 1 0 8.99309 -5.96329 14.96 1
+--- !u!114 &8198309219253744486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884546167744396140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Breite
+  - Tiefe
+  - Verbundbreite
+  - Winkel Flansche
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Typname
+  - PsetName
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - Basisbauteil
+  - PsetName
+  - Einbautiefe
+  - "Fl\xE4che"
+  - "Gesamtl\xE4nge Spundbohle"
+  - Volumen
+  - PsetName
+  - Material
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Spundbohle
+  - Konstruktion(Type)
+  - 0.75
+  - 0.2
+  - 0.03
+  - 30
+  - ID-Daten(Type)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Spundbohle 750 x 200
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - false
+  - Keine
+  - Abmessungen
+  - 4.9
+  - 6.1174
+  - 6
+  - 0.0619292
+  - "Materialien und Oberfl\xE4chen"
+  - Metall - Baustahl S275 - gerostet
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - "Grundst\xFCck"
+  - 'Spundbohle: Spundbohle 750 x 200'
+  - 'Spundbohle: Spundbohle 750 x 200'
+--- !u!114 &8778618475825231494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884546167744396140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Metall - Baustahl S275 - gerostet
+  thicknesses:
+  - 
+--- !u!64 &6831428281396573615
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884546167744396140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5474586670756782497, guid: 567ad4421280b464f9cb3db1d16884e0, type: 3}

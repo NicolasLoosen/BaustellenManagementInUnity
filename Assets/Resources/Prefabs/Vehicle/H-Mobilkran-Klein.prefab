@@ -1,0 +1,892 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3761131178935960772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4752222353033691217}
+  - component: {fileID: 2012618959000149018}
+  - component: {fileID: 8938258620324063491}
+  m_Layer: 0
+  m_Name: GM-EG-OKFFB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4752222353033691217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761131178935960772}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 45377705470571246}
+  m_Father: {fileID: 2401920735747513173}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2012618959000149018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761131178935960772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  - Elevation
+  values:
+  - IfcBuildingStorey
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - GM-EG-OKFFB
+  - Ebene:Ebene
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - GM-EG-OKFFB
+  - ELEMENT
+  - 0
+--- !u!114 &8938258620324063491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761131178935960772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Typname
+  - PsetName
+  - Farbe
+  - Linienmuster
+  - "Linienst\xE4rke"
+  - Symbol
+  - Symbol bei Ende 1 Standard
+  - Symbol bei Ende 2 Standard
+  - PsetName
+  - "Basish\xF6he"
+  - PsetName
+  - Name
+  - PsetName
+  - AboveGround
+  - PsetName
+  - Name
+  - PsetName
+  - Ansicht
+  - PsetName
+  - "H\xF6he f\xFCr Berechnung"
+  - PsetName
+  - "Geb\xE4udegeschoss"
+  - Name
+  - Tragwerk
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - Ebenen
+  - Ebene
+  - ID-Daten(Type)
+  - Ebene
+  - Grafiken(Type)
+  - 16711680
+  - Verdeckt
+  - 1
+  - '_Beschriftung_Ebene: Beschriftung Ebene'
+  - false
+  - true
+  - "Abh\xE4ngigkeiten(Type)"
+  - Projekt-Basispunkt
+  - Pset_AirSideSystemInformation
+  - GM-EG-OKFFB
+  - Pset_BuildingStoreyCommon
+  - false
+  - Pset_ProductRequirements
+  - GM-EG-OKFFB
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - Abmessungen
+  - 0
+  - ID-Daten
+  - true
+  - GM-EG-OKFFB
+  - false
+  - Sonstige
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'
+  - Ebenen
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'
+--- !u!1 &4087707510955448280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2401920735747513173}
+  - component: {fileID: 221796781067313554}
+  - component: {fileID: 4663594925125466897}
+  m_Layer: 0
+  m_Name: 
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2401920735747513173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087707510955448280}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4752222353033691217}
+  m_Father: {fileID: 4618667544457773677}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &221796781067313554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087707510955448280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  values:
+  - IfcBuilding
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - 
+  - ELEMENT
+--- !u!114 &4663594925125466897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087707510955448280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Projektname
+  - Projektstatus
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname_2
+  - Projektnummer
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - NumberOfStoreys
+  - IsLandmarked
+  nominalValues:
+  - Sonstige
+  - Projektinformationen
+  - 
+  - 
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - xxxx
+  - 000
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Pset_BuildingCommon
+  - 1
+  - false
+--- !u!1 &4337724484635569436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6112572666228810142}
+  - component: {fileID: 7729541946647434827}
+  - component: {fileID: 7134910632674680516}
+  - component: {fileID: 5330459208184617874}
+  - component: {fileID: 2887822053451283555}
+  m_Layer: 0
+  m_Name: H-Mobilkran-Klein
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6112572666228810142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337724484635569436}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4618667544457773677}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7729541946647434827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337724484635569436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6254c7c63cc62474a86e431a3be71d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headers:
+  - description
+  - implementation_level
+  - name
+  - time_stamp
+  - preprocessor_version
+  - originating_system
+  - schema_identifiers
+  values:
+  - ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]
+  - 2;1
+  - 000
+  - 2021-04-22T14:10:26
+  - 'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013'
+  - 21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383
+  - IFC2X3
+--- !u!114 &7134910632674680516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337724484635569436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72179e3e2e45e94fb15765524953a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType:
+  - LENGTHUNIT
+  - AREAUNIT
+  - VOLUMEUNIT
+  - PLANEANGLEUNIT
+  - MASSUNIT
+  - TIMEUNIT
+  - FREQUENCYUNIT
+  - THERMODYNAMICTEMPERATUREUNIT
+  - ELECTRICCURRENTUNIT
+  - ELECTRICVOLTAGEUNIT
+  - POWERUNIT
+  - FORCEUNIT
+  - ILLUMINANCEUNIT
+  - LUMINOUSFLUXUNIT
+  - LUMINOUSINTENSITYUNIT
+  - PRESSUREUNIT
+  unitName:
+  - METRE
+  - SQUARE_METRE
+  - CUBIC_METRE
+  - DEGREE
+  - GRAM
+  - SECOND
+  - HERTZ
+  - DEGREE_CELSIUS
+  - AMPERE
+  - VOLT
+  - WATT
+  - NEWTON
+  - LUX
+  - LUMEN
+  - CANDELA
+  - PASCAL
+  si_equivalent:
+  - 1
+  - 1
+  - 1
+  - 0.017453292519943299
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &5330459208184617874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337724484635569436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e980c28fadf5474c9cf579f9dbf3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifcGameObject:
+  - {fileID: 4337724484635569436}
+  - {fileID: 8340473010690016429}
+  - {fileID: 4087707510955448280}
+  - {fileID: 3761131178935960772}
+  - {fileID: 6874949207805420890}
+  ifcId:
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - 32yOTpy9fFWvl4XC9R2Ac_
+  ifcElementType:
+  - IfcProject
+  - IfcSite
+  - IfcBuilding
+  - IfcBuildingStorey
+  - IfcBuildingElementProxy
+  ifcPresentationLayer:
+  - No layer
+  - No layer
+  - No layer
+  - No layer
+  - A-DETL-GENF-OTLN
+--- !u!114 &2887822053451283555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337724484635569436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - LongName
+  - Phase
+  values:
+  - IfcProject
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 000
+  - 
+  - 
+--- !u!1 &6874949207805420890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 45377705470571246}
+  - component: {fileID: 5005380824647020566}
+  - component: {fileID: 3151769855743708839}
+  - component: {fileID: 6421940428106889342}
+  - component: {fileID: 2581780259388073948}
+  - component: {fileID: 3732257042259406350}
+  - component: {fileID: 8006493420321948320}
+  - component: {fileID: 1751772526571205837}
+  - component: {fileID: 7800103851448637893}
+  m_Layer: 0
+  m_Name: Baustellenfahrzeug - Mobiler Kompaktkran:Typ1:549197
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &45377705470571246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4752222353033691217}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5005380824647020566
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Mesh: {fileID: -7089011179627122455, guid: 5185f80ce70240e478294803bf284536, type: 3}
+--- !u!23 &3151769855743708839
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -4994688545990539200, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: -537508127696124663, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: 8336755683171250606, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: -3926525720914538225, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: 6947789933254069124, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: 5375547100464887924, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: -454868290772200572, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: 8259262277538419496, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  - {fileID: 3519294124188145240, guid: 5185f80ce70240e478294803bf284536, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6421940428106889342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - Tag
+  values:
+  - IfcBuildingElementProxy
+  - 32yOTpy9fFWvl4XC9R2Ac_
+  - Baustellenfahrzeug - Mobiler Kompaktkran:Typ1:549197
+  - Baustellenfahrzeug - Mobiler Kompaktkran:Typ1
+  - 1 0 0 0 0 1 0 0 0 0 1 0 5.32138 -13.3604 14.9706 1
+  - 549197
+--- !u!114 &2581780259388073948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Reference
+  - PsetName
+  - Reference
+  - PsetName
+  - Arbeitsebene
+  - Bauteillistenebene
+  - Ebene
+  - Versatz von Host
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Pset_BuildingElementProxyCommon
+  - Typ1
+  - Pset_QuantityTakeOff
+  - Typ1
+  - "Abh\xE4ngigkeiten"
+  - 'Ebene : GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 0
+  - Abmessungen
+  - 151.283
+  - 33.9162
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Baustellenfahrzeug - Mobiler Kompaktkran: Typ1'
+  - 'Baustellenfahrzeug - Mobiler Kompaktkran: Typ1'
+  - Umgebung
+  - 'Baustellenfahrzeug - Mobiler Kompaktkran: Typ1'
+  - 'Baustellenfahrzeug - Mobiler Kompaktkran: Typ1'
+--- !u!114 &3732257042259406350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Autodesk Light Teal 50-188-173
+  - Autodesk Light Green 135-188-64
+  - Autodesk Sky Blue 6-150-215
+  - Metall - Edelstahl satiniert
+  - Kunststoff - grau 50-50-50
+  - "Lack - wei\xDF 241-240-234"
+  - Glas - Sicherheitsverglasung
+  - Lack - grau
+  - Kunststoff - grau 70-70-70
+  thicknesses:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &8006493420321948320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41697d3e0127849489c6cc709fa5d699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  types:
+  - type
+  - id
+  - Name
+  - Tag
+  - PredefinedType
+  values:
+  - IfcBuildingElementProxyType
+  - 32yOTpy9fFWvl4XC9R2Ad2
+  - Typ1
+  - 549169
+  - NOTDEFINED
+--- !u!114 &1751772526571205837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials: []
+  thicknesses: []
+--- !u!64 &7800103851448637893
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874949207805420890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7089011179627122455, guid: 5185f80ce70240e478294803bf284536, type: 3}
+--- !u!1 &8340473010690016429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4618667544457773677}
+  - component: {fileID: 4232947450774324369}
+  - component: {fileID: 197987085038589284}
+  m_Layer: 0
+  m_Name: Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4618667544457773677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340473010690016429}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2401920735747513173}
+  m_Father: {fileID: 6112572666228810142}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4232947450774324369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340473010690016429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - CompositionType
+  - RefLatitude
+  - RefLongitude
+  - RefElevation
+  values:
+  - IfcSite
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - Default
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - ELEMENT
+  - 52.516599999722
+  - 13.399999999722
+  - 14.96
+--- !u!114 &197987085038589284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340473010690016429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Kategorie
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname
+  - Projektname_2
+  - Projektnummer
+  - Projektstatus
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  nominalValues:
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Sonstige
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - Projektinformationen
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - 
+  - xxxx
+  - 000
+  - 
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521

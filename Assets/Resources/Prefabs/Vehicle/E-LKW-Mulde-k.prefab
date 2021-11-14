@@ -1,0 +1,889 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1505035837492247573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3555633812403825969}
+  - component: {fileID: 2333987619762628818}
+  - component: {fileID: 4216731831957532166}
+  - component: {fileID: 3737903857698346896}
+  - component: {fileID: 472575873339517577}
+  - component: {fileID: 963076019319148069}
+  - component: {fileID: 477954879956233489}
+  - component: {fileID: 4002713353549318244}
+  - component: {fileID: 7996870611162211224}
+  m_Layer: 0
+  m_Name: Baustellenfahrzeug - Kipper LKW:Typ1:659963
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3555633812403825969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5601338736072600213}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2333987619762628818
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Mesh: {fileID: 7477880115285680583, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+--- !u!23 &4216731831957532166
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -2274260709464265265, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  - {fileID: 5789792306781490039, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  - {fileID: -8920356846299723929, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  - {fileID: 9205872721010789096, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  - {fileID: 4602040351169240957, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  - {fileID: 504120985375052441, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  - {fileID: 9032406235108665745, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  - {fileID: 7466185843161996993, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3737903857698346896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - Tag
+  values:
+  - IfcBuildingElementProxy
+  - 2fl92Gvkb1ZgrKn5jgXEf4
+  - Baustellenfahrzeug - Kipper LKW:Typ1:659963
+  - Baustellenfahrzeug - Kipper LKW:Typ1
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - 659963
+--- !u!114 &472575873339517577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Reference
+  - PsetName
+  - Reference
+  - PsetName
+  - Arbeitsebene
+  - Bauteillistenebene
+  - Ebene
+  - Versatz von Host
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Pset_BuildingElementProxyCommon
+  - Typ1
+  - Pset_QuantityTakeOff
+  - Typ1
+  - "Abh\xE4ngigkeiten"
+  - 'Ebene : GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 0
+  - Abmessungen
+  - 107.92
+  - 22.2841
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Baustellenfahrzeug - Kipper LKW: Typ1'
+  - 'Baustellenfahrzeug - Kipper LKW: Typ1'
+  - Umgebung
+  - 'Baustellenfahrzeug - Kipper LKW: Typ1'
+  - 'Baustellenfahrzeug - Kipper LKW: Typ1'
+--- !u!114 &963076019319148069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Autodesk Light Teal 50-188-173
+  - Autodesk Light Green 135-188-64
+  - Autodesk Sky Blue 6-150-215
+  - Lack - grau
+  - Kunststoff - grau 50-50-50
+  - Glas - Sicherheitsverglasung
+  - "Lack - wei\xDF 241-240-234"
+  - Metall - Edelstahl satiniert
+  thicknesses:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &477954879956233489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41697d3e0127849489c6cc709fa5d699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  types:
+  - type
+  - id
+  - Name
+  - Tag
+  - PredefinedType
+  values:
+  - IfcBuildingElementProxyType
+  - 2fl92Gvkb1ZgrKn5jgXEfW
+  - Typ1
+  - 659935
+  - NOTDEFINED
+--- !u!114 &4002713353549318244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials: []
+  thicknesses: []
+--- !u!64 &7996870611162211224
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505035837492247573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7477880115285680583, guid: 8470ed4b4cd068c408301e3b909523dd, type: 3}
+--- !u!1 &3203217443177411613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6974885525000451966}
+  - component: {fileID: 4483520506365984163}
+  - component: {fileID: 7728707868088691018}
+  - component: {fileID: 8188550913795410585}
+  - component: {fileID: 4416549398728735133}
+  m_Layer: 0
+  m_Name: E-LKW-Mulde-k
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6974885525000451966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203217443177411613}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3321838845806142107}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4483520506365984163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203217443177411613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6254c7c63cc62474a86e431a3be71d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headers:
+  - description
+  - implementation_level
+  - name
+  - time_stamp
+  - preprocessor_version
+  - originating_system
+  - schema_identifiers
+  values:
+  - ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]
+  - 2;1
+  - 000
+  - 2021-04-22T14:45:41
+  - 'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013'
+  - 21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383
+  - IFC2X3
+--- !u!114 &7728707868088691018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203217443177411613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72179e3e2e45e94fb15765524953a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType:
+  - LENGTHUNIT
+  - AREAUNIT
+  - VOLUMEUNIT
+  - PLANEANGLEUNIT
+  - MASSUNIT
+  - TIMEUNIT
+  - FREQUENCYUNIT
+  - THERMODYNAMICTEMPERATUREUNIT
+  - ELECTRICCURRENTUNIT
+  - ELECTRICVOLTAGEUNIT
+  - POWERUNIT
+  - FORCEUNIT
+  - ILLUMINANCEUNIT
+  - LUMINOUSFLUXUNIT
+  - LUMINOUSINTENSITYUNIT
+  - PRESSUREUNIT
+  unitName:
+  - METRE
+  - SQUARE_METRE
+  - CUBIC_METRE
+  - DEGREE
+  - GRAM
+  - SECOND
+  - HERTZ
+  - DEGREE_CELSIUS
+  - AMPERE
+  - VOLT
+  - WATT
+  - NEWTON
+  - LUX
+  - LUMEN
+  - CANDELA
+  - PASCAL
+  si_equivalent:
+  - 1
+  - 1
+  - 1
+  - 0.017453292519943299
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &8188550913795410585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203217443177411613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e980c28fadf5474c9cf579f9dbf3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifcGameObject:
+  - {fileID: 3203217443177411613}
+  - {fileID: 5864543763864071884}
+  - {fileID: 8347943247423917658}
+  - {fileID: 7937303871833878178}
+  - {fileID: 1505035837492247573}
+  ifcId:
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - 2fl92Gvkb1ZgrKn5jgXEf4
+  ifcElementType:
+  - IfcProject
+  - IfcSite
+  - IfcBuilding
+  - IfcBuildingStorey
+  - IfcBuildingElementProxy
+  ifcPresentationLayer:
+  - No layer
+  - No layer
+  - No layer
+  - No layer
+  - A-DETL-GENF-OTLN
+--- !u!114 &4416549398728735133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203217443177411613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - LongName
+  - Phase
+  values:
+  - IfcProject
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 000
+  - 
+  - 
+--- !u!1 &5864543763864071884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3321838845806142107}
+  - component: {fileID: 6642699053992501535}
+  - component: {fileID: 3865933464344357013}
+  m_Layer: 0
+  m_Name: Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3321838845806142107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5864543763864071884}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8828631619193243819}
+  m_Father: {fileID: 6974885525000451966}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6642699053992501535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5864543763864071884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - CompositionType
+  - RefLatitude
+  - RefLongitude
+  - RefElevation
+  values:
+  - IfcSite
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - Default
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - ELEMENT
+  - 52.516599999722
+  - 13.399999999722
+  - 14.96
+--- !u!114 &3865933464344357013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5864543763864071884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Kategorie
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname
+  - Projektname_2
+  - Projektnummer
+  - Projektstatus
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  nominalValues:
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Sonstige
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - Projektinformationen
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - 
+  - xxxx
+  - 000
+  - 
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521
+--- !u!1 &7937303871833878178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5601338736072600213}
+  - component: {fileID: 7457902692975829007}
+  - component: {fileID: 4789020938376308082}
+  m_Layer: 0
+  m_Name: GM-EG-OKFFB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5601338736072600213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937303871833878178}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3555633812403825969}
+  m_Father: {fileID: 8828631619193243819}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7457902692975829007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937303871833878178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  - Elevation
+  values:
+  - IfcBuildingStorey
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - GM-EG-OKFFB
+  - Ebene:Ebene
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - GM-EG-OKFFB
+  - ELEMENT
+  - 0
+--- !u!114 &4789020938376308082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937303871833878178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Typname
+  - PsetName
+  - Farbe
+  - Linienmuster
+  - "Linienst\xE4rke"
+  - Symbol
+  - Symbol bei Ende 1 Standard
+  - Symbol bei Ende 2 Standard
+  - PsetName
+  - "Basish\xF6he"
+  - PsetName
+  - Name
+  - PsetName
+  - AboveGround
+  - PsetName
+  - Name
+  - PsetName
+  - Ansicht
+  - PsetName
+  - "H\xF6he f\xFCr Berechnung"
+  - PsetName
+  - "Geb\xE4udegeschoss"
+  - Name
+  - Tragwerk
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - Ebenen
+  - Ebene
+  - ID-Daten(Type)
+  - Ebene
+  - Grafiken(Type)
+  - 16711680
+  - Verdeckt
+  - 1
+  - '_Beschriftung_Ebene: Beschriftung Ebene'
+  - false
+  - true
+  - "Abh\xE4ngigkeiten(Type)"
+  - Projekt-Basispunkt
+  - Pset_AirSideSystemInformation
+  - GM-EG-OKFFB
+  - Pset_BuildingStoreyCommon
+  - false
+  - Pset_ProductRequirements
+  - GM-EG-OKFFB
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - Abmessungen
+  - 0
+  - ID-Daten
+  - true
+  - GM-EG-OKFFB
+  - false
+  - Sonstige
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'
+  - Ebenen
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'
+--- !u!1 &8347943247423917658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8828631619193243819}
+  - component: {fileID: 5151675107457092508}
+  - component: {fileID: 8983959555432328819}
+  m_Layer: 0
+  m_Name: 
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8828631619193243819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8347943247423917658}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5601338736072600213}
+  m_Father: {fileID: 3321838845806142107}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5151675107457092508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8347943247423917658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  values:
+  - IfcBuilding
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - 
+  - ELEMENT
+--- !u!114 &8983959555432328819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8347943247423917658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Projektname
+  - Projektstatus
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname_2
+  - Projektnummer
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - NumberOfStoreys
+  - IsLandmarked
+  nominalValues:
+  - Sonstige
+  - Projektinformationen
+  - 
+  - 
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - xxxx
+  - 000
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Pset_BuildingCommon
+  - 1
+  - false

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 44d8128e1e084ee4b80201ad245668ff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - groundPrefab: {instanceID: 0}
+  - rightClickMenuPrefab: {instanceID: 0}
+  - constructionSiteUiManager: {instanceID: 0}
+  - constructionPhasesManager: {instanceID: 0}
+  - polierPrefab: {instanceID: 0}
+  - birdsEyeCamera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

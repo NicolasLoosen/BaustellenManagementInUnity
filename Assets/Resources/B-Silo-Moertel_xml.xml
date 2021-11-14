@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifc xmlns:xlink="http://www.w3.org/1999/xlink">
+	<header>
+		<file_description>
+			<description>ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]</description>
+			<implementation_level>2;1</implementation_level>
+		</file_description>
+		<file_name>
+			<author/>
+			<organization/>
+			<name>000</name>
+			<time_stamp>2021-04-22T14:27:31</time_stamp>
+			<preprocessor_version>The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013</preprocessor_version>
+			<originating_system>21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383</originating_system>
+			<authorization/>
+		</file_name>
+		<file_schema>
+			<schema_identifiers>IFC2X3</schema_identifiers>
+		</file_schema>
+	</header>
+	<units>
+		<IfcSIUnit UnitType="LENGTHUNIT" Name="METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="AREAUNIT" Name="SQUARE_METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="VOLUMEUNIT" Name="CUBIC_METRE" SI_equivalent="1"/>
+		<IfcConversionBasedUnit UnitType="PLANEANGLEUNIT" Name="DEGREE" SI_equivalent="0.017453292519943299"/>
+		<IfcSIUnit UnitType="MASSUNIT" Prefix="KILO" Name="GRAM" SI_equivalent="1000"/>
+		<IfcSIUnit UnitType="TIMEUNIT" Name="SECOND" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="FREQUENCYUNIT" Name="HERTZ" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="THERMODYNAMICTEMPERATUREUNIT" Name="DEGREE_CELSIUS" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="ELECTRICCURRENTUNIT" Name="AMPERE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="ELECTRICVOLTAGEUNIT" Name="VOLT" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="POWERUNIT" Name="WATT" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="FORCEUNIT" Prefix="KILO" Name="NEWTON" SI_equivalent="1000"/>
+		<IfcSIUnit UnitType="ILLUMINANCEUNIT" Name="LUX" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="LUMINOUSFLUXUNIT" Name="LUMEN" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="LUMINOUSINTENSITYUNIT" Name="CANDELA" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="PRESSUREUNIT" Name="PASCAL" SI_equivalent="1"/>
+	</units>
+	<properties>
+		<IfcPropertySet id="32yOTpy9fFWvl4WffR2TLf" Name="Vollständige Legende(Type)">
+			<IfcPropertySingleValue Name="Neigung Gestell" NominalValue="0.285714"/>
+			<IfcPropertySingleValue Name="Schräge an Silooberkante" NominalValue="0.2"/>
+			<IfcPropertySingleValue Name="Strebenansatz" NominalValue="0.520681"/>
+			<IfcPropertySingleValue Name="Strebenende" NominalValue="2.08272"/>
+			<IfcPropertySingleValue Name="Streben Versatz seitlich" NominalValue="0.0571429"/>
+			<IfcPropertySingleValue Name="UK Silo" NominalValue="2.6034"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3ZM$MUw7b37ROJNIvQdLlc" Name="Sonstige(Type)">
+			<IfcPropertySingleValue Name="Kategorie" NominalValue="Grundstück"/>
+			<IfcPropertySingleValue Name="Familienname" NominalValue="Baustellensilo"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="32yOTpy9fFWvl4WiHR2TLf" Name="Materialien und Oberflächen(Type)">
+			<IfcPropertySingleValue Name="Farbe Auslauf" NominalValue="Kunststoff - grau 80-80-80"/>
+			<IfcPropertySingleValue Name="Farbe Mischer" NominalValue="Kunststoff - grau 80-80-80"/>
+			<IfcPropertySingleValue Name="Silofarbe" NominalValue="Lack - weiß 241-240-234"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="32yOTpy9fFWvl4WiDR2TLf" Name="ID-Daten(Type)">
+			<IfcPropertySingleValue Name="Baugruppenbeschreibung" NominalValue=""/>
+			<IfcPropertySingleValue Name="Baugruppenkennzeichen" NominalValue=""/>
+			<IfcPropertySingleValue Name="Beschreibung" NominalValue="Silo"/>
+			<IfcPropertySingleValue Name="Codename" NominalValue=""/>
+			<IfcPropertySingleValue Name="OmniClass-Nummer" NominalValue=""/>
+			<IfcPropertySingleValue Name="OmniClass-Titel" NominalValue=""/>
+			<IfcPropertySingleValue Name="Typenkommentare" NominalValue="Silo"/>
+			<IfcPropertySingleValue Name="Typname" NominalValue="D=2000 H=7000"/>
+			<IfcPropertySingleValue Name="URL" NominalValue="www.autodesk.com/BIM"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="32yOTpy9fFWvl4Wi1R2TLf" Name="Abmessungen(Type)">
+			<IfcPropertySingleValue Name="Durchmesser" NominalValue="2"/>
+			<IfcPropertySingleValue Name="Gesamthöhe" NominalValue="7"/>
+			<IfcPropertySingleValue Name="Höhe UK Trichter" NominalValue="1.6"/>
+			<IfcPropertySingleValue Name="Neigung Trichter" NominalValue="50"/>
+			<IfcPropertySingleValue Name="Radius" NominalValue="1"/>
+			<IfcPropertySingleValue Name="Standfläche Fußplatten" NominalValue="0.25"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="32yOTpy9fFWvl4WjPR2TLf" Name="Abhängigkeiten(Type)">
+			<IfcPropertySingleValue Name="Vorgabe-Ansicht" NominalValue="1.2192"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0VUo_84jn1CfTqOKnqT1y9" Name="Sonstige(Type)">
+			<IfcPropertySingleValue Name="Kategorie" NominalValue="Ebenen"/>
+			<IfcPropertySingleValue Name="Familienname" NominalValue="Ebene"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1cGeuaLxrC_hSD$UCVe9pI" Name="ID-Daten(Type)">
+			<IfcPropertySingleValue Name="Typname" NominalValue="Ebene"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1cGeuaLxrC_hSD$USVe9pI" Name="Grafiken(Type)">
+			<IfcPropertySingleValue Name="Farbe" NominalValue="16711680"/>
+			<IfcPropertySingleValue Name="Linienmuster" NominalValue="Verdeckt"/>
+			<IfcPropertySingleValue Name="Linienstärke" NominalValue="1"/>
+			<IfcPropertySingleValue Name="Symbol" NominalValue="_Beschriftung_Ebene: Beschriftung Ebene"/>
+			<IfcPropertySingleValue Name="Symbol bei Ende 1 Standard" NominalValue="false"/>
+			<IfcPropertySingleValue Name="Symbol bei Ende 2 Standard" NominalValue="true"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1cGeuaLxrC_hSD$VOVe9pI" Name="Abhängigkeiten(Type)">
+			<IfcPropertySingleValue Name="Basishöhe" NominalValue="Projekt-Basispunkt"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3ArnKS23b6KfTZCf5LuN09" Name="ID-Daten">
+			<IfcPropertySingleValue Name="Gebäudebezeichnung" NominalValue=""/>
+			<IfcPropertySingleValue Name="Unternehmensbeschreibung" NominalValue=""/>
+			<IfcPropertySingleValue Name="Unternehmensname" NominalValue=""/>
+			<IfcPropertySingleValue Name="Verfasser" NominalValue=""/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3ut_rJbMHFev$pZTZ7qZRP" Name="Sonstige">
+			<IfcPropertySingleValue Name="Auftraggeber" NominalValue="M. Mustermann"/>
+			<IfcPropertySingleValue Name="Bauherr_1" NominalValue="xxxxx"/>
+			<IfcPropertySingleValue Name="Bauherr_2" NominalValue="xxxxx"/>
+			<IfcPropertySingleValue Name="Bauherr_Adresse" NominalValue="xxx"/>
+			<IfcPropertySingleValue Name="Bauherr_Internet" NominalValue="Internet www.xxx.org"/>
+			<IfcPropertySingleValue Name="Bauherr_Telefon" NominalValue="Telefon xxx"/>
+			<IfcPropertySingleValue Name="Bauherr_Vertreten durch" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Dateiname" NominalValue="xxx_A5_G_"/>
+			<IfcPropertySingleValue Name="Geschäftsbereich" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Kategorie" NominalValue="Projektinformationen"/>
+			<IfcPropertySingleValue Name="Nutzer_1" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Nutzer_2" NominalValue="xxx"/>
+			<IfcPropertySingleValue Name="Nutzer_Adresse" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Nutzer_Internet" NominalValue="Internet www.xxx.de"/>
+			<IfcPropertySingleValue Name="Nutzer_Telefon" NominalValue="Telefon xx"/>
+			<IfcPropertySingleValue Name="Planer_Vertreten durch" NominalValue="xxxx"/>
+			<IfcPropertySingleValue Name="Projektadresse" NominalValue="Projektadresse"/>
+			<IfcPropertySingleValue Name="Projektausgabedatum" NominalValue="Projekt Datum"/>
+			<IfcPropertySingleValue Name="Projektname" NominalValue=""/>
+			<IfcPropertySingleValue Name="Projektname_2" NominalValue="xxxx"/>
+			<IfcPropertySingleValue Name="Projektnummer" NominalValue="000"/>
+			<IfcPropertySingleValue Name="Projektstatus" NominalValue=""/>
+			<IfcPropertySingleValue Name="Verfasser eMail" NominalValue="E-Mail info@xx"/>
+			<IfcPropertySingleValue Name="Verfasser Firma 1" NominalValue="Firma 1"/>
+			<IfcPropertySingleValue Name="Verfasser Firma 2" NominalValue="Firma 2"/>
+			<IfcPropertySingleValue Name="Verfasser Internet" NominalValue="Internet www.xxx.com"/>
+			<IfcPropertySingleValue Name="Verfasser PLZ Ort" NominalValue="xxx"/>
+			<IfcPropertySingleValue Name="Verfasser Strasse" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Verfasser Telefax" NominalValue="Telefax 05"/>
+			<IfcPropertySingleValue Name="Verfasser Telefon" NominalValue="Telefon 0521"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2fl92Gvkb1ZgrKmazgX_O5" Name="Abhängigkeiten">
+			<IfcPropertySingleValue Name="Arbeitsebene" NominalValue="Ebene : GM-EG-OKFFB"/>
+			<IfcPropertySingleValue Name="Bauteillistenebene" NominalValue="Ebene: GM-EG-OKFFB"/>
+			<IfcPropertySingleValue Name="Ebene" NominalValue="Ebene: GM-EG-OKFFB"/>
+			<IfcPropertySingleValue Name="Versatz von Host" NominalValue="0"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2fl92Gvkb1ZgrKmbbgX_O5" Name="Abmessungen">
+			<IfcPropertySingleValue Name="Fläche" NominalValue="22.4575"/>
+			<IfcPropertySingleValue Name="Volumen" NominalValue="14.4084"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2fl92Gvkb1ZgrKmbHgX_O5" Name="Phasen">
+			<IfcPropertySingleValue Name="Phase erstellt" NominalValue="Bauabschnitt 1"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="37y0jaVWXAFx0UK7WmiNic" Name="Sonstige">
+			<IfcPropertySingleValue Name="Familie" NominalValue="Baustellensilo: D=2000 H=7000"/>
+			<IfcPropertySingleValue Name="Familie und Typ" NominalValue="Baustellensilo: D=2000 H=7000"/>
+			<IfcPropertySingleValue Name="Kategorie" NominalValue="Grundstück"/>
+			<IfcPropertySingleValue Name="Mischer" NominalValue="true"/>
+			<IfcPropertySingleValue Name="Pumpe" NominalValue="false"/>
+			<IfcPropertySingleValue Name="Typ" NominalValue="Baustellensilo: D=2000 H=7000"/>
+			<IfcPropertySingleValue Name="Typ-ID" NominalValue="Baustellensilo: D=2000 H=7000"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3FlQW9hn14MB1G5hrP762Y" Name="Pset_AirSideSystemInformation">
+			<IfcPropertySingleValue Name="Name" NominalValue="GM-EG-OKFFB"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="13LV5dTeP3CAox7wB56C1Z" Name="Pset_BuildingStoreyCommon">
+			<IfcPropertySingleValue Name="AboveGround" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3xFrHXYIXD6gc2lEIbIhPj" Name="Pset_ProductRequirements">
+			<IfcPropertySingleValue Name="Name" NominalValue="GM-EG-OKFFB"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="13LV5dTeP3CAox4bh56C1Z" Name="Abhängigkeiten">
+			<IfcPropertySingleValue Name="Ansicht" NominalValue="0"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="13LV5dTeP3CAox4ap56C1Z" Name="Abmessungen">
+			<IfcPropertySingleValue Name="Höhe für Berechnung" NominalValue="0"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="13LV5dTeP3CAox4a$56C1Z" Name="ID-Daten">
+			<IfcPropertySingleValue Name="Gebäudegeschoss" NominalValue="true"/>
+			<IfcPropertySingleValue Name="Name" NominalValue="GM-EG-OKFFB"/>
+			<IfcPropertySingleValue Name="Tragwerk" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0yDktbvcf4xuTYKvowZr69" Name="Sonstige">
+			<IfcPropertySingleValue Name="Familie" NominalValue="Ebene: Ebene"/>
+			<IfcPropertySingleValue Name="Familie und Typ" NominalValue="Ebene: Ebene"/>
+			<IfcPropertySingleValue Name="Kategorie" NominalValue="Ebenen"/>
+			<IfcPropertySingleValue Name="Typ" NominalValue="Ebene: Ebene"/>
+			<IfcPropertySingleValue Name="Typ-ID" NominalValue="Ebene: Ebene"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3ArnKS23b6KfTZFtjLuN09" Name="Pset_BuildingCommon">
+			<IfcPropertySingleValue Name="NumberOfStoreys" NominalValue="1"/>
+			<IfcPropertySingleValue Name="IsLandmarked" NominalValue="false"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0eThSOI7TCzhNP7D7XtvU4" Name="ID-Daten">
+			<IfcPropertySingleValue Name="Gebäudebezeichnung" NominalValue=""/>
+			<IfcPropertySingleValue Name="Unternehmensbeschreibung" NominalValue=""/>
+			<IfcPropertySingleValue Name="Unternehmensname" NominalValue=""/>
+			<IfcPropertySingleValue Name="Verfasser" NominalValue=""/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1_Nk7d0U52IBv$NgVL7dH$" Name="Sonstige">
+			<IfcPropertySingleValue Name="Kategorie" NominalValue="Projektinformationen"/>
+			<IfcPropertySingleValue Name="Projektname" NominalValue=""/>
+			<IfcPropertySingleValue Name="Projektstatus" NominalValue=""/>
+			<IfcPropertySingleValue Name="Auftraggeber" NominalValue="M. Mustermann"/>
+			<IfcPropertySingleValue Name="Bauherr_1" NominalValue="xxxxx"/>
+			<IfcPropertySingleValue Name="Bauherr_2" NominalValue="xxxxx"/>
+			<IfcPropertySingleValue Name="Bauherr_Adresse" NominalValue="xxx"/>
+			<IfcPropertySingleValue Name="Bauherr_Internet" NominalValue="Internet www.xxx.org"/>
+			<IfcPropertySingleValue Name="Bauherr_Telefon" NominalValue="Telefon xxx"/>
+			<IfcPropertySingleValue Name="Bauherr_Vertreten durch" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Dateiname" NominalValue="xxx_A5_G_"/>
+			<IfcPropertySingleValue Name="Geschäftsbereich" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Nutzer_1" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Nutzer_2" NominalValue="xxx"/>
+			<IfcPropertySingleValue Name="Nutzer_Adresse" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Nutzer_Internet" NominalValue="Internet www.xxx.de"/>
+			<IfcPropertySingleValue Name="Nutzer_Telefon" NominalValue="Telefon xx"/>
+			<IfcPropertySingleValue Name="Planer_Vertreten durch" NominalValue="xxxx"/>
+			<IfcPropertySingleValue Name="Projektadresse" NominalValue="Projektadresse"/>
+			<IfcPropertySingleValue Name="Projektausgabedatum" NominalValue="Projekt Datum"/>
+			<IfcPropertySingleValue Name="Projektname_2" NominalValue="xxxx"/>
+			<IfcPropertySingleValue Name="Projektnummer" NominalValue="000"/>
+			<IfcPropertySingleValue Name="Verfasser eMail" NominalValue="E-Mail info@xx"/>
+			<IfcPropertySingleValue Name="Verfasser Firma 1" NominalValue="Firma 1"/>
+			<IfcPropertySingleValue Name="Verfasser Firma 2" NominalValue="Firma 2"/>
+			<IfcPropertySingleValue Name="Verfasser Internet" NominalValue="Internet www.xxx.com"/>
+			<IfcPropertySingleValue Name="Verfasser PLZ Ort" NominalValue="xxx"/>
+			<IfcPropertySingleValue Name="Verfasser Strasse" NominalValue="xx"/>
+			<IfcPropertySingleValue Name="Verfasser Telefax" NominalValue="Telefax 05"/>
+			<IfcPropertySingleValue Name="Verfasser Telefon" NominalValue="Telefon 0521"/>
+		</IfcPropertySet>
+	</properties>
+	<quantities/>
+	<types/>
+	<layers>
+		<IfcPresentationLayerAssignment id="L-SITE-____-OTLN" Name="L-SITE-____-OTLN"/>
+	</layers>
+	<materials>
+		<IfcMaterialList id="IfcMaterialList_58127">
+			<IfcMaterial Name="Autodesk Light Green 135-188-64"/>
+			<IfcMaterial Name="Autodesk Light Teal 50-188-173"/>
+			<IfcMaterial Name="Autodesk Sky Blue 6-150-215"/>
+			<IfcMaterial Name="Lack - weiß 241-240-234"/>
+			<IfcMaterial Name="Kunststoff - grau 80-80-80"/>
+		</IfcMaterialList>
+	</materials>
+	<decomposition>
+		<IfcProject id="08S2TIJxXAnQo6ShtLJgeI" Name="000" LongName="" Phase="">
+			<IfcSite id="08S2TIJxXAnQo6ShtLJgeG" Name="Default" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1" CompositionType="ELEMENT" RefLatitude="52.516599999722" RefLongitude="13.399999999722" RefElevation="14.96">
+				<IfcBuilding id="08S2TIJxXAnQo6ShtLJgeJ" Name="" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1" LongName="" CompositionType="ELEMENT">
+					<IfcBuildingStorey id="08S2TIJxXAnQo6ShqgiJKW" Name="GM-EG-OKFFB" ObjectType="Ebene:Ebene" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1" LongName="GM-EG-OKFFB" CompositionType="ELEMENT" Elevation="0">
+						<IfcSite id="2fl92Gvkb1ZgrKn5jgX_O5" Name="Baustellensilo:D=2000 H=7000:597434" ObjectType="Baustellensilo:D=2000 H=7000" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 8.7 -5 14.96 1">
+							<IfcPropertySet xlink:href="#32yOTpy9fFWvl4WffR2TLf"/>
+							<IfcPropertySet xlink:href="#3ZM$MUw7b37ROJNIvQdLlc"/>
+							<IfcPropertySet xlink:href="#32yOTpy9fFWvl4WiHR2TLf"/>
+							<IfcPropertySet xlink:href="#32yOTpy9fFWvl4WiDR2TLf"/>
+							<IfcPropertySet xlink:href="#32yOTpy9fFWvl4Wi1R2TLf"/>
+							<IfcPropertySet xlink:href="#32yOTpy9fFWvl4WjPR2TLf"/>
+							<IfcPropertySet xlink:href="#2fl92Gvkb1ZgrKmazgX_O5"/>
+							<IfcPropertySet xlink:href="#2fl92Gvkb1ZgrKmbbgX_O5"/>
+							<IfcPropertySet xlink:href="#2fl92Gvkb1ZgrKmbHgX_O5"/>
+							<IfcPropertySet xlink:href="#37y0jaVWXAFx0UK7WmiNic"/>
+							<IfcPresentationLayerAssignment xlink:href="#L-SITE-____-OTLN"/>
+							<IfcMaterialList xlink:href="#IfcMaterialList_58127"/>
+						</IfcSite>
+						<IfcPropertySet xlink:href="#0VUo_84jn1CfTqOKnqT1y9"/>
+						<IfcPropertySet xlink:href="#1cGeuaLxrC_hSD$UCVe9pI"/>
+						<IfcPropertySet xlink:href="#1cGeuaLxrC_hSD$USVe9pI"/>
+						<IfcPropertySet xlink:href="#1cGeuaLxrC_hSD$VOVe9pI"/>
+						<IfcPropertySet xlink:href="#3FlQW9hn14MB1G5hrP762Y"/>
+						<IfcPropertySet xlink:href="#13LV5dTeP3CAox7wB56C1Z"/>
+						<IfcPropertySet xlink:href="#3xFrHXYIXD6gc2lEIbIhPj"/>
+						<IfcPropertySet xlink:href="#13LV5dTeP3CAox4bh56C1Z"/>
+						<IfcPropertySet xlink:href="#13LV5dTeP3CAox4ap56C1Z"/>
+						<IfcPropertySet xlink:href="#13LV5dTeP3CAox4a$56C1Z"/>
+						<IfcPropertySet xlink:href="#0yDktbvcf4xuTYKvowZr69"/>
+					</IfcBuildingStorey>
+					<IfcPropertySet xlink:href="#1_Nk7d0U52IBv$NgVL7dH$"/>
+					<IfcPropertySet xlink:href="#3ArnKS23b6KfTZFtjLuN09"/>
+					<IfcPropertySet xlink:href="#0eThSOI7TCzhNP7D7XtvU4"/>
+				</IfcBuilding>
+				<IfcPropertySet xlink:href="#3ArnKS23b6KfTZCf5LuN09"/>
+				<IfcPropertySet xlink:href="#3ut_rJbMHFev$pZTZ7qZRP"/>
+			</IfcSite>
+		</IfcProject>
+	</decomposition>
+</ifc>

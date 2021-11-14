@@ -1,0 +1,868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2598192102982769243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7173497345122359419}
+  - component: {fileID: 5542210502132640082}
+  - component: {fileID: 8216083072696483901}
+  - component: {fileID: 2476459028810682365}
+  - component: {fileID: 8137348724705059013}
+  m_Layer: 0
+  m_Name: V-Abfall-Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7173497345122359419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598192102982769243}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6656174681114426141}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5542210502132640082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598192102982769243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6254c7c63cc62474a86e431a3be71d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headers:
+  - description
+  - implementation_level
+  - name
+  - time_stamp
+  - preprocessor_version
+  - originating_system
+  - schema_identifiers
+  values:
+  - ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]
+  - 2;1
+  - 000
+  - 2021-04-22T14:18:31
+  - 'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013'
+  - 21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383
+  - IFC2X3
+--- !u!114 &8216083072696483901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598192102982769243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72179e3e2e45e94fb15765524953a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType:
+  - LENGTHUNIT
+  - AREAUNIT
+  - VOLUMEUNIT
+  - PLANEANGLEUNIT
+  - MASSUNIT
+  - TIMEUNIT
+  - FREQUENCYUNIT
+  - THERMODYNAMICTEMPERATUREUNIT
+  - ELECTRICCURRENTUNIT
+  - ELECTRICVOLTAGEUNIT
+  - POWERUNIT
+  - FORCEUNIT
+  - ILLUMINANCEUNIT
+  - LUMINOUSFLUXUNIT
+  - LUMINOUSINTENSITYUNIT
+  - PRESSUREUNIT
+  unitName:
+  - METRE
+  - SQUARE_METRE
+  - CUBIC_METRE
+  - DEGREE
+  - GRAM
+  - SECOND
+  - HERTZ
+  - DEGREE_CELSIUS
+  - AMPERE
+  - VOLT
+  - WATT
+  - NEWTON
+  - LUX
+  - LUMEN
+  - CANDELA
+  - PASCAL
+  si_equivalent:
+  - 1
+  - 1
+  - 1
+  - 0.017453292519943299
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &2476459028810682365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598192102982769243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e980c28fadf5474c9cf579f9dbf3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifcGameObject:
+  - {fileID: 2598192102982769243}
+  - {fileID: 7402304693276443115}
+  - {fileID: 8590291860525264912}
+  - {fileID: 8112054700500730895}
+  - {fileID: 8203120257589284278}
+  ifcId:
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - 32yOTpy9fFWvl4XC9R25aa
+  ifcElementType:
+  - IfcProject
+  - IfcSite
+  - IfcBuilding
+  - IfcBuildingStorey
+  - IfcBuildingElementProxy
+  ifcPresentationLayer:
+  - No layer
+  - No layer
+  - No layer
+  - No layer
+  - A-DETL-GENF-OTLN
+--- !u!114 &8137348724705059013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598192102982769243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - LongName
+  - Phase
+  values:
+  - IfcProject
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 000
+  - 
+  - 
+--- !u!1 &7402304693276443115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6656174681114426141}
+  - component: {fileID: 8282078307689324984}
+  - component: {fileID: 931758013369784490}
+  m_Layer: 0
+  m_Name: Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6656174681114426141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402304693276443115}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8196257289263079617}
+  m_Father: {fileID: 7173497345122359419}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8282078307689324984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402304693276443115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - CompositionType
+  - RefLatitude
+  - RefLongitude
+  - RefElevation
+  values:
+  - IfcSite
+  - 08S2TIJxXAnQo6ShtLJgeG
+  - Default
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - ELEMENT
+  - 52.516599999722
+  - 13.399999999722
+  - 14.96
+--- !u!114 &931758013369784490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402304693276443115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Kategorie
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname
+  - Projektname_2
+  - Projektnummer
+  - Projektstatus
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  nominalValues:
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Sonstige
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - Projektinformationen
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - 
+  - xxxx
+  - 000
+  - 
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521
+--- !u!1 &8112054700500730895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1488473878379615159}
+  - component: {fileID: 4956446531115623286}
+  - component: {fileID: 5141341391606189046}
+  m_Layer: 0
+  m_Name: GM-EG-OKFFB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1488473878379615159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8112054700500730895}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 76224351896705736}
+  m_Father: {fileID: 8196257289263079617}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4956446531115623286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8112054700500730895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  - Elevation
+  values:
+  - IfcBuildingStorey
+  - 08S2TIJxXAnQo6ShqgiJKW
+  - GM-EG-OKFFB
+  - Ebene:Ebene
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - GM-EG-OKFFB
+  - ELEMENT
+  - 0
+--- !u!114 &5141341391606189046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8112054700500730895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Typname
+  - PsetName
+  - Farbe
+  - Linienmuster
+  - "Linienst\xE4rke"
+  - Symbol
+  - Symbol bei Ende 1 Standard
+  - Symbol bei Ende 2 Standard
+  - PsetName
+  - "Basish\xF6he"
+  - PsetName
+  - Name
+  - PsetName
+  - AboveGround
+  - PsetName
+  - Name
+  - PsetName
+  - Ansicht
+  - PsetName
+  - "H\xF6he f\xFCr Berechnung"
+  - PsetName
+  - "Geb\xE4udegeschoss"
+  - Name
+  - Tragwerk
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - Ebenen
+  - Ebene
+  - ID-Daten(Type)
+  - Ebene
+  - Grafiken(Type)
+  - 16711680
+  - Verdeckt
+  - 1
+  - '_Beschriftung_Ebene: Beschriftung Ebene'
+  - false
+  - true
+  - "Abh\xE4ngigkeiten(Type)"
+  - Projekt-Basispunkt
+  - Pset_AirSideSystemInformation
+  - GM-EG-OKFFB
+  - Pset_BuildingStoreyCommon
+  - false
+  - Pset_ProductRequirements
+  - GM-EG-OKFFB
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - Abmessungen
+  - 0
+  - ID-Daten
+  - true
+  - GM-EG-OKFFB
+  - false
+  - Sonstige
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'
+  - Ebenen
+  - 'Ebene: Ebene'
+  - 'Ebene: Ebene'
+--- !u!1 &8203120257589284278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76224351896705736}
+  - component: {fileID: 2424904720884154945}
+  - component: {fileID: 100014627745318904}
+  - component: {fileID: 3550252576302214731}
+  - component: {fileID: 7063393272828692733}
+  - component: {fileID: 1059955220346526403}
+  - component: {fileID: 7057363221069572054}
+  - component: {fileID: 7019371091533810557}
+  - component: {fileID: 3332667411448950227}
+  m_Layer: 0
+  m_Name: Container:7090 x 2280 x 2540:561623
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &76224351896705736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1488473878379615159}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2424904720884154945
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Mesh: {fileID: 3586457147342910474, guid: 9831770d112078744b8ca4e120976515, type: 3}
+--- !u!23 &100014627745318904
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -744158784285954817, guid: 9831770d112078744b8ca4e120976515, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3550252576302214731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  - Tag
+  values:
+  - IfcBuildingElementProxy
+  - 32yOTpy9fFWvl4XC9R25aa
+  - Container:7090 x 2280 x 2540:561623
+  - Container:7090 x 2280 x 2540
+  - 1 0 0 0 0 1 0 0 0 0 1 0 4.6238 -4.5138 14.9588 1
+  - 561623
+--- !u!114 &7063393272828692733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Reference
+  - PsetName
+  - Reference
+  - PsetName
+  - Arbeitsebene
+  - Bauteillistenebene
+  - Ebene
+  - Versatz von Host
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Pset_BuildingElementProxyCommon
+  - 7090 x 2280 x 2540
+  - Pset_QuantityTakeOff
+  - 7090 x 2280 x 2540
+  - "Abh\xE4ngigkeiten"
+  - 'Ebene : GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 'Ebene: GM-EG-OKFFB'
+  - 0
+  - Abmessungen
+  - 63.7649
+  - 5.09883
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - 'Container: 7090 x 2280 x 2540'
+  - 'Container: 7090 x 2280 x 2540'
+  - Umgebung
+  - 'Container: 7090 x 2280 x 2540'
+  - 'Container: 7090 x 2280 x 2540'
+--- !u!114 &1059955220346526403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Autodesk Dark Blue 24-88-168
+  thicknesses:
+  - 
+--- !u!114 &7057363221069572054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41697d3e0127849489c6cc709fa5d699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  types:
+  - type
+  - id
+  - Name
+  - Tag
+  - PredefinedType
+  values:
+  - IfcBuildingElementProxyType
+  - 32yOTpy9fFWvl4XC9R25b8
+  - 7090 x 2280 x 2540
+  - 561595
+  - NOTDEFINED
+--- !u!114 &7019371091533810557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials: []
+  thicknesses: []
+--- !u!64 &3332667411448950227
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203120257589284278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3586457147342910474, guid: 9831770d112078744b8ca4e120976515, type: 3}
+--- !u!1 &8590291860525264912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8196257289263079617}
+  - component: {fileID: 8578010704970256520}
+  - component: {fileID: 3700913122287815458}
+  m_Layer: 0
+  m_Name: 
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8196257289263079617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590291860525264912}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1488473878379615159}
+  m_Father: {fileID: 6656174681114426141}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8578010704970256520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590291860525264912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectPlacement
+  - LongName
+  - CompositionType
+  values:
+  - IfcBuilding
+  - 08S2TIJxXAnQo6ShtLJgeJ
+  - 
+  - 1 0 0 0 0 1 0 0 0 0 1 0 0 0 14.96 1
+  - 
+  - ELEMENT
+--- !u!114 &3700913122287815458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590291860525264912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Projektname
+  - Projektstatus
+  - Auftraggeber
+  - Bauherr_1
+  - Bauherr_2
+  - Bauherr_Adresse
+  - Bauherr_Internet
+  - Bauherr_Telefon
+  - Bauherr_Vertreten durch
+  - Dateiname
+  - "Gesch\xE4ftsbereich"
+  - Nutzer_1
+  - Nutzer_2
+  - Nutzer_Adresse
+  - Nutzer_Internet
+  - Nutzer_Telefon
+  - Planer_Vertreten durch
+  - Projektadresse
+  - Projektausgabedatum
+  - Projektname_2
+  - Projektnummer
+  - Verfasser eMail
+  - Verfasser Firma 1
+  - Verfasser Firma 2
+  - Verfasser Internet
+  - Verfasser PLZ Ort
+  - Verfasser Strasse
+  - Verfasser Telefax
+  - Verfasser Telefon
+  - PsetName
+  - "Geb\xE4udebezeichnung"
+  - Unternehmensbeschreibung
+  - Unternehmensname
+  - Verfasser
+  - PsetName
+  - NumberOfStoreys
+  - IsLandmarked
+  nominalValues:
+  - Sonstige
+  - Projektinformationen
+  - 
+  - 
+  - M. Mustermann
+  - xxxxx
+  - xxxxx
+  - xxx
+  - Internet www.xxx.org
+  - Telefon xxx
+  - xx
+  - xxx_A5_G_
+  - xx
+  - xx
+  - xxx
+  - xx
+  - Internet www.xxx.de
+  - Telefon xx
+  - xxxx
+  - Projektadresse
+  - Projekt Datum
+  - xxxx
+  - 000
+  - E-Mail info@xx
+  - Firma 1
+  - Firma 2
+  - Internet www.xxx.com
+  - xxx
+  - xx
+  - Telefax 05
+  - Telefon 0521
+  - ID-Daten
+  - 
+  - 
+  - 
+  - 
+  - Pset_BuildingCommon
+  - 1
+  - false

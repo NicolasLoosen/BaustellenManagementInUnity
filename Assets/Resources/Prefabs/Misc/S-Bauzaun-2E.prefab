@@ -1,0 +1,1311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1282880392191548263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5366696040509998468}
+  - component: {fileID: 1481278011178254421}
+  - component: {fileID: 6714572141044627917}
+  - component: {fileID: 1560641810836708285}
+  - component: {fileID: 9120170080646179024}
+  - component: {fileID: 5579171656174522284}
+  - component: {fileID: 3963799061641447718}
+  m_Layer: 0
+  m_Name: Bauzaun:3500 x 2500:557661
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5366696040509998468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282880392191548263}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 600811640775232876}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1481278011178254421
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282880392191548263}
+  m_Mesh: {fileID: 9157268188452423551, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!23 &6714572141044627917
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282880392191548263}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6143057696925071310, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+  - {fileID: -8064771438106712410, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1560641810836708285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282880392191548263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R24gk
+  - Bauzaun:3500 x 2500:557661
+  - Bauzaun:3500 x 2500
+  - 1 0 0 0 0 1 0 0 0 0 1 0 5.70134 -4.21919 15.06 1
+--- !u!114 &9120170080646179024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282880392191548263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Rahmen
+  - Zaun
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Beschreibung
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Typenkommentare
+  - Typname
+  - URL
+  - PsetName
+  - "H\xF6he"
+  - "L\xE4nge"
+  - PsetName
+  - Vorgabe-Ansicht
+  - PsetName
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - Basisbauteil
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Bauzaunplatte 1
+  - Bauzaunplatte 2
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Bauzaun
+  - "Materialien und Oberfl\xE4chen(Type)"
+  - Metall - Zink
+  - Metall - Bauzaun
+  - ID-Daten(Type)
+  - 
+  - 
+  - Bauzaun
+  - 
+  - 
+  - 
+  - Baustellensicherheit
+  - 3500 x 2500
+  - www.autodesk.de/BIM
+  - Abmessungen(Type)
+  - 2.5
+  - 3.5
+  - "Abh\xE4ngigkeiten(Type)"
+  - 1.2192
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - false
+  - Keine
+  - Abmessungen
+  - 0.9344
+  - 0.018624
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - false
+  - false
+  - 'Bauzaun: 3500 x 2500'
+  - 'Bauzaun: 3500 x 2500'
+  - "Grundst\xFCck"
+  - 'Bauzaun: 3500 x 2500'
+  - 'Bauzaun: 3500 x 2500'
+--- !u!114 &5579171656174522284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282880392191548263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Metall - Zink
+  - Metall - Bauzaun
+  thicknesses:
+  - 
+  - 
+--- !u!64 &3963799061641447718
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282880392191548263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9157268188452423551, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!1 &4426302911345170680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8063513571825777992}
+  - component: {fileID: 6671012190105220876}
+  - component: {fileID: 6836786399569366696}
+  - component: {fileID: 1366020763914529824}
+  - component: {fileID: 7165260616910337241}
+  - component: {fileID: 6368956295163116737}
+  - component: {fileID: 8703344422438203871}
+  m_Layer: 0
+  m_Name: Bauzaunplatte:500 x 100:557664
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8063513571825777992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426302911345170680}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -3.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 600811640775232876}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6671012190105220876
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426302911345170680}
+  m_Mesh: {fileID: -1784277845356416130, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!23 &6836786399569366696
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426302911345170680}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -2838694430862661444, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1366020763914529824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426302911345170680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R24gJ
+  - Bauzaunplatte:500 x 100:557664
+  - Bauzaunplatte:500 x 100
+  - 1 0 0 0 0 1 0 0 0 0 1 0 9.22634 -4.19919 14.96 1
+--- !u!114 &7165260616910337241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426302911345170680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familie
+  - Familie und Typ
+  - Typ
+  - Typ-ID
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Beschreibung
+  - Typenkommentare
+  - Typname
+  - URL
+  - PsetName
+  - D
+  - Innendurchmesser
+  - r
+  - PsetName
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - Basisbauteil
+  nominalValues:
+  - Sonstige
+  - "Grundst\xFCck"
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Bauzaunplatte
+  - Abmessungen
+  - 0.459406
+  - 0.0151533
+  - ID-Daten(Type)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Bauzaun
+  - Baustellensicherheit
+  - 500 x 100
+  - www.autodesk.de/BIM
+  - Abmessungen(Type)
+  - 0.5
+  - 0.17
+  - 0.25
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - false
+  - Keine
+--- !u!114 &6368956295163116737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426302911345170680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Kunststoff - grau 80-80-80
+  thicknesses:
+  - 
+--- !u!64 &8703344422438203871
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426302911345170680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1784277845356416130, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!1 &4767624377878458806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600811640775232876}
+  - component: {fileID: 2009467156777328880}
+  - component: {fileID: 4608366636449904437}
+  - component: {fileID: 3118456122134171562}
+  - component: {fileID: 85908330792798247}
+  m_Layer: 0
+  m_Name: S-Bauzaun-2E
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600811640775232876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767624377878458806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7475858664173735672}
+  - {fileID: 8063513571825777992}
+  - {fileID: 5055729009013483078}
+  - {fileID: 5366696040509998468}
+  - {fileID: 4110443888411162510}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2009467156777328880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767624377878458806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6254c7c63cc62474a86e431a3be71d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headers:
+  - description
+  - implementation_level
+  - name
+  - time_stamp
+  - preprocessor_version
+  - originating_system
+  - schema_identifiers
+  values:
+  - ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]
+  - 2;1
+  - 000
+  - 2021-04-22T14:15:40
+  - 'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013'
+  - 21.0.0.383 - Exporter 21.0.0.383 - Alternativ-UI 21.0.0.383
+  - IFC2X3
+--- !u!114 &4608366636449904437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767624377878458806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72179e3e2e45e94fb15765524953a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType:
+  - LENGTHUNIT
+  - AREAUNIT
+  - VOLUMEUNIT
+  - PLANEANGLEUNIT
+  - MASSUNIT
+  - TIMEUNIT
+  - FREQUENCYUNIT
+  - THERMODYNAMICTEMPERATUREUNIT
+  - ELECTRICCURRENTUNIT
+  - ELECTRICVOLTAGEUNIT
+  - POWERUNIT
+  - FORCEUNIT
+  - ILLUMINANCEUNIT
+  - LUMINOUSFLUXUNIT
+  - LUMINOUSINTENSITYUNIT
+  - PRESSUREUNIT
+  unitName:
+  - METRE
+  - SQUARE_METRE
+  - CUBIC_METRE
+  - DEGREE
+  - GRAM
+  - SECOND
+  - HERTZ
+  - DEGREE_CELSIUS
+  - AMPERE
+  - VOLT
+  - WATT
+  - NEWTON
+  - LUX
+  - LUMEN
+  - CANDELA
+  - PASCAL
+  si_equivalent:
+  - 1
+  - 1
+  - 1
+  - 0.017453292519943299
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1000
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &3118456122134171562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767624377878458806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e980c28fadf5474c9cf579f9dbf3dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifcGameObject:
+  - {fileID: 4767624377878458806}
+  - {fileID: 8249448444500772075}
+  - {fileID: 1282880392191548263}
+  - {fileID: 7504722778389445995}
+  - {fileID: 4426302911345170680}
+  ifcId:
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 32yOTpy9fFWvl4XC9R24gl
+  - 32yOTpy9fFWvl4XC9R24gk
+  - 32yOTpy9fFWvl4XC9R24gj
+  - 32yOTpy9fFWvl4XC9R24gJ
+  ifcElementType:
+  - IfcProject
+  - IfcSite
+  - IfcSite
+  - IfcSite
+  - IfcSite
+  ifcPresentationLayer:
+  - No layer
+  - L-SITE-____-OTLN
+  - L-SITE-____-OTLN
+  - L-SITE-____-OTLN
+  - L-SITE-____-OTLN
+--- !u!114 &85908330792798247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767624377878458806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - LongName
+  - Phase
+  values:
+  - IfcProject
+  - 08S2TIJxXAnQo6ShtLJgeI
+  - 000
+  - 
+  - 
+--- !u!1 &7504722778389445995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7475858664173735672}
+  - component: {fileID: 8964908946917277683}
+  - component: {fileID: 8301249471256939321}
+  - component: {fileID: 3817216907616591302}
+  - component: {fileID: 9076496190389411638}
+  - component: {fileID: 6812508636019893944}
+  - component: {fileID: 5984417267151683572}
+  m_Layer: 0
+  m_Name: Bauzaunplatte:500 x 100:557662
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7475858664173735672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504722778389445995}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 600811640775232876}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8964908946917277683
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504722778389445995}
+  m_Mesh: {fileID: -1784277845356416130, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!23 &8301249471256939321
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504722778389445995}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -2838694430862661444, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3817216907616591302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504722778389445995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R24gj
+  - Bauzaunplatte:500 x 100:557662
+  - Bauzaunplatte:500 x 100
+  - 1 0 0 0 0 1 0 0 0 0 1 0 5.67634 -4.19919 14.96 1
+--- !u!114 &9076496190389411638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504722778389445995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Beschreibung
+  - Typenkommentare
+  - Typname
+  - URL
+  - PsetName
+  - D
+  - Innendurchmesser
+  - r
+  - PsetName
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - Basisbauteil
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Kategorie
+  - Familie
+  - Familie und Typ
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Bauzaunplatte
+  - ID-Daten(Type)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Bauzaun
+  - Baustellensicherheit
+  - 500 x 100
+  - www.autodesk.de/BIM
+  - Abmessungen(Type)
+  - 0.5
+  - 0.17
+  - 0.25
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - false
+  - Keine
+  - Abmessungen
+  - 0.459406
+  - 0.0151533
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - "Grundst\xFCck"
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+--- !u!114 &6812508636019893944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504722778389445995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Kunststoff - grau 80-80-80
+  thicknesses:
+  - 
+--- !u!64 &5984417267151683572
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504722778389445995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1784277845356416130, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!1 &7709707511668822632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5055729009013483078}
+  - component: {fileID: 6274766394731583314}
+  - component: {fileID: 8961867810449386065}
+  - component: {fileID: 5882085956938572066}
+  - component: {fileID: 7668586726477242497}
+  - component: {fileID: 3168768160181200822}
+  - component: {fileID: 6564177458457931988}
+  m_Layer: 0
+  m_Name: Bauzaunplatte:500 x 100:557665
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5055729009013483078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709707511668822632}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 3.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 600811640775232876}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6274766394731583314
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709707511668822632}
+  m_Mesh: {fileID: -1784277845356416130, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!23 &8961867810449386065
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709707511668822632}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -2838694430862661444, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5882085956938572066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709707511668822632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R24gJ
+  - Bauzaunplatte:500 x 100:557664
+  - Bauzaunplatte:500 x 100
+  - 1 0 0 0 0 1 0 0 0 0 1 0 9.22634 -4.19919 14.96 1
+--- !u!114 &7668586726477242497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709707511668822632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familie
+  - Familie und Typ
+  - Typ
+  - Typ-ID
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Beschreibung
+  - Typenkommentare
+  - Typname
+  - URL
+  - PsetName
+  - D
+  - Innendurchmesser
+  - r
+  - PsetName
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - Basisbauteil
+  nominalValues:
+  - Sonstige
+  - "Grundst\xFCck"
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - 'Bauzaunplatte: 500 x 100'
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Bauzaunplatte
+  - Abmessungen
+  - 0.459406
+  - 0.0151533
+  - ID-Daten(Type)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Bauzaun
+  - Baustellensicherheit
+  - 500 x 100
+  - www.autodesk.de/BIM
+  - Abmessungen(Type)
+  - 0.5
+  - 0.17
+  - 0.25
+  - "Abh\xE4ngigkeiten"
+  - 0
+  - false
+  - Keine
+--- !u!114 &3168768160181200822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709707511668822632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Kunststoff - grau 80-80-80
+  thicknesses:
+  - 
+--- !u!64 &6564177458457931988
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709707511668822632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1784277845356416130, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!1 &8249448444500772075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4110443888411162510}
+  - component: {fileID: 1177677290222503164}
+  - component: {fileID: 2305189138090011000}
+  - component: {fileID: 7787717424820017382}
+  - component: {fileID: 8025697959282069304}
+  - component: {fileID: 5893965965539386214}
+  - component: {fileID: 702535482262428236}
+  m_Layer: 0
+  m_Name: Bauzaun:3500 x 2500:557660
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4110443888411162510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249448444500772075}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 3.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 600811640775232876}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1177677290222503164
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249448444500772075}
+  m_Mesh: {fileID: 9157268188452423551, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+--- !u!23 &2305189138090011000
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249448444500772075}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6143057696925071310, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+  - {fileID: -8064771438106712410, guid: 3318b7125015c284594aca3c83ee353c, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7787717424820017382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249448444500772075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8544e99866528442931e5ba2026dce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributes:
+  - IfcElementType
+  - id
+  - Name
+  - ObjectType
+  - ObjectPlacement
+  values:
+  - IfcSite
+  - 32yOTpy9fFWvl4XC9R24gl
+  - Bauzaun:3500 x 2500:557660
+  - Bauzaun:3500 x 2500
+  - 1 0 0 0 0 1 0 0 0 0 1 0 9.25134 -4.21919 15.06 1
+--- !u!114 &8025697959282069304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249448444500772075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb452ef10d7bc469894422d604c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+  - PsetName
+  - Kategorie
+  - Familienname
+  - PsetName
+  - Rahmen
+  - Zaun
+  - PsetName
+  - Baugruppenbeschreibung
+  - Baugruppenkennzeichen
+  - Beschreibung
+  - Codename
+  - OmniClass-Nummer
+  - OmniClass-Titel
+  - Typenkommentare
+  - Typname
+  - URL
+  - PsetName
+  - "H\xF6he"
+  - "L\xE4nge"
+  - PsetName
+  - Vorgabe-Ansicht
+  - PsetName
+  - Width
+  - PsetName
+  - Basisbauteil
+  - Versatz von Host
+  - Verschieben mit umliegenden Elementen
+  - PsetName
+  - "Fl\xE4che"
+  - Volumen
+  - PsetName
+  - Phase erstellt
+  - PsetName
+  - Bauzaunplatte 1
+  - Bauzaunplatte 2
+  - Familie
+  - Familie und Typ
+  - Kategorie
+  - Typ
+  - Typ-ID
+  nominalValues:
+  - Sonstige(Type)
+  - "Grundst\xFCck"
+  - Bauzaun
+  - "Materialien und Oberfl\xE4chen(Type)"
+  - Metall - Zink
+  - Metall - Bauzaun
+  - ID-Daten(Type)
+  - 
+  - 
+  - Bauzaun
+  - 
+  - 
+  - 
+  - Baustellensicherheit
+  - 3500 x 2500
+  - www.autodesk.de/BIM
+  - Abmessungen(Type)
+  - 2.5
+  - 3.5
+  - "Abh\xE4ngigkeiten(Type)"
+  - 1.2192
+  - Pset_DrainageReserve
+  - 2.22
+  - "Abh\xE4ngigkeiten"
+  - Keine
+  - 0
+  - false
+  - Abmessungen
+  - 0.9344
+  - 0.018624
+  - Phasen
+  - Bauabschnitt 1
+  - Sonstige
+  - false
+  - false
+  - 'Bauzaun: 3500 x 2500'
+  - 'Bauzaun: 3500 x 2500'
+  - "Grundst\xFCck"
+  - 'Bauzaun: 3500 x 2500'
+  - 'Bauzaun: 3500 x 2500'
+--- !u!114 &5893965965539386214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249448444500772075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d68c7633b24a574b9a8e96602b0abdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - Metall - Zink
+  - Metall - Bauzaun
+  thicknesses:
+  - 
+  - 
+--- !u!64 &702535482262428236
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249448444500772075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9157268188452423551, guid: 3318b7125015c284594aca3c83ee353c, type: 3}

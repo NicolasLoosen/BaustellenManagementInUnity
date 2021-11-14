@@ -1,0 +1,1 @@
+![Logo HTW Saar ingwi kompakt](./images/htwsaar_Logo_ingwi_compact.png)

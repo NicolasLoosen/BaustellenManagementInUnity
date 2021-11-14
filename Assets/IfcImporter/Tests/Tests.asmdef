@@ -1,0 +1,13 @@
+﻿{
+    "name": "Tests",
+    "references": [
+        "IfcImporter",
+        "EditorScripts"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}
